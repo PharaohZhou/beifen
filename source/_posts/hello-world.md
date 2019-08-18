@@ -1,10 +1,10 @@
 ---
-title: helloworld
+title: Hello World
 date: 2019-08-07 09:25:00
-author: zz
-top: true
-cover: true
-toc: true
+author: 周李
+top: false
+cover: false
+toc: false
 mathjax: false
 categories: Markdown
 tags:

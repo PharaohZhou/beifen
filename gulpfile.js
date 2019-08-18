@@ -37,7 +37,7 @@ gulp.task('minify-html', function() {
 
 // 压缩 public/js 目录内 js
 gulp.task('minify-js', function() {
-    return gulp.src('./public/**/*.js')
+    return gulp.src(['./public/**/.js','!./public/js/**/*min.js'])
         .pipe(uglify())
         .pipe(gulp.dest('./public'));
 });
@@ -55,5 +55,5 @@ gulp.task('minify-images', function() {
 });
 
 // 执行 gulp 命令时执行的任务
-gulp.task('default', gulp.parallel('minify-html','minify-css','minify-images'
+gulp.task('default', gulp.parallel('minify-html','minify-css','minify-images','minify-js'
 ));
