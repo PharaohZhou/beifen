@@ -2,8 +2,8 @@
 title: ssm小项目：人事管理系统(二)
 date: 2019-08-22 12:25:00
 author: 周李
-top: true
-cover: true
+top: false
+cover: false
 toc: true
 mathjax: false
 categories: ssm

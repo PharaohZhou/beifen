@@ -2,8 +2,8 @@
 title: 初识Spring(二)
 date: 2019-08-07 22:25:00
 author: 周李
-top: true
-cover: true
+top: false
+cover: false
 toc: true
 mathjax: false
 categories: Spring
